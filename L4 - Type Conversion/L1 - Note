@@ -1,0 +1,23 @@
+To Number
+| Code                 | Result                 |
+| -------------------- | ---------------------- |
+| `Number("42")`       | `42` (number)          |
+| `parseInt("42")`     | `42`                   |
+| `parseFloat("3.14")` | `3.14`                 |
+| `+"99"`              | `99` (shorthand trick) |
+
+To String
+| Code          | Result                    |
+| ------------- | ------------------------- |
+| `String(123)` | `"123"`                   |
+| `123 + ""`    | `"123"` (shorthand trick) |
+
+To Boolean
+| Code            | Result  |
+| --------------- | ------- |
+| `Boolean(0)`    | `false` |
+| `Boolean("hi")` | `true`  |
+| `Boolean("")`   | `false` |
+
+To Array
+a = [1, 2, 3]     | 'true'

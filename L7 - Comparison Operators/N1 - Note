@@ -1,0 +1,10 @@
+| Operator | Meaning               | Example     | Result  |
+| -------- | --------------------- | ----------- | ------- |
+| `==`     | Equal (loose)         | `5 == "5"`  | `true`  |
+| `===`    | Equal (strict)        | `5 === "5"` | `false` |
+| `!=`     | Not equal (loose)     | `4 != "4"`  | `false` |
+| `!==`    | Not equal (strict)    | `4 !== "4"` | `true`  |
+| `>`      | Greater than          | `10 > 5`    | `true`  |
+| `<`      | Less than             | `3 < 8`     | `true`  |
+| `>=`     | Greater than or equal | `6 >= 6`    | `true`  |
+| `<=`     | Less than or equal    | `2 <= 5`    | `true`  |

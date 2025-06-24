@@ -1,0 +1,16 @@
+typeof      ~   Tells you the type of any value as a string.
+typeof "hi"        // "string"
+typeof 123         // "number"
+typeof true        // "boolean"
+typeof []          // "object" 😕 (yes, arrays are objects)
+typeof null        // "object" (quirk of JS)
+
+isNaN()     ~   Checks if a value is NaN (Not a Number).
+isNaN("hi")        // true (because "hi" can't be converted to a number)
+isNaN(123)         // false
+isNaN("123")       // false (it's a valid number string)
+
+Array.isArray   ~   Specifically checks if something is an array.
+Array.isArray([1, 2, 3])     // true
+Array.isArray("hello")       // false
+Array.isArray({})            // false
