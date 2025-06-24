@@ -11,3 +11,5 @@ while( i <= b){
 }console.log(d)
 let e = isNaN(d)
 console.log(e)
+let f = ['a', 'b', 'c'], g = f.length
+console.log(g)
