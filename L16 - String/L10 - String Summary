@@ -1,0 +1,29 @@
++------------------------+------------------------------------------------------------+-----------------------------+
+| Method                | What It Does                                                | Example Output              |
++------------------------+------------------------------------------------------------+-----------------------------+
+| length                | Counts total characters (incl. space/symbols)               | "hello".length → 5          |
+|                       |                                                             | "hello world".length → 11   |
++------------------------+------------------------------------------------------------+-----------------------------+
+| split(separator)      | Splits string into array using given separator              | "a,b".split(",") → ["a","b"]|
+|                       |                                                             | "hi there".split(" ") → ["hi", "there"] |
++------------------------+------------------------------------------------------------+-----------------------------+
+| trim()                | Removes spaces/tabs from start & end                        | "  hi  ".trim() → "hi"      |
++------------------------+------------------------------------------------------------+-----------------------------+
+| includes(text)        | Checks if string contains the given text (case-sensitive)   | "hello".includes("he") → true |
+|                       |                                                             | "hello".includes("H") → false |
++------------------------+------------------------------------------------------------+-----------------------------+
+| toLowerCase()         | Converts all letters to lowercase                           | "HELLO".toLowerCase() → "hello" |
++------------------------+------------------------------------------------------------+-----------------------------+
+| toUpperCase()         | Converts all letters to uppercase                           | "hello".toUpperCase() → "HELLO" |
++------------------------+------------------------------------------------------------+-----------------------------+
+| slice(start, end)     | Gets part of string from start to (end - 1)                 | "JavaScript".slice(0, 4) → "Java" |
+|                       | Supports negative indexes                                   | "JavaScript".slice(-6) → "Script" |
++------------------------+------------------------------------------------------------+-----------------------------+
+| replace(search, new)  | Replaces first match with new value                         | "bad code".replace("bad", "good") → "good code" |
++------------------------+------------------------------------------------------------+-----------------------------+
+| replaceAll(search,new)| Replaces all matches with new value                         | "a a a".replaceAll("a", "b") → "b b b" |
++------------------------+------------------------------------------------------------+-----------------------------+
+| startsWith(text)      | Returns true if string starts with given text               | "hello".startsWith("he") → true |
++------------------------+------------------------------------------------------------+-----------------------------+
+| endsWith(text)        | Returns true if string ends with given text                 | "hello".endsWith("lo") → true |
++------------------------+------------------------------------------------------------+-----------------------------+
