@@ -1,0 +1,5 @@
+some vs every
+| Method  | Meaning                  | Returns      |
+| ------- | ------------------------ | ------------ |
+| `some`  |   any item matches       | `true/false` |
+| `every` |   all items must match   | `true/false` |
