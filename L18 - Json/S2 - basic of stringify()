@@ -1,0 +1,22 @@
+SUMMARY: JSON.stringify()
+What does it do?
+It converts a JavaScript object into a JSON string.
+
+Why use it?
+Because you cannot send objects to APIs / databases / files.
+You must send string format.
+
+Before: Object (cannot send to API)
+
+let user = {
+    name: 'hs',
+    age: 25
+}
+
+After: JSON String (can send to API)
+
+let jsonStr = JSON.stringify(user);
+console.log(jsonStr)
+
+output:     '{"name":"hs","age":25}'
+

@@ -1,0 +1,45 @@
+BASIC SUMMARY: WHAT IS JSON?
+
+JSON stands for:    JavaScript Object Notation
+
+What is JSON used for?
+JSON is used to store data and send data between systems.
+It’s the most common format for:
+ * APIs
+ * Databases
+ * Config files
+ * Sending data from front-end to back-end
+
+// eg: js object
+let user = {
+    name: 'Alice',
+    age: 25
+}
+
+- transform to json using JSON.stringify()
+
+// after transform to json
+'{"name": "Alice", "age": 25}'
+
+why need of json
+| Reason         | Why                                  |
+| -------------- | ------------------------------------ |
+| Send to API    | API cannot accept objects, only text |
+| Save to file   | File stores plain text               |
+| Database store | Store text, not JS object            |
+
+eg: json api
+{
+    "status": "success",
+    "user": "hs",
+    "role": "admin"
+}
+
+When received in JavaScript, this will look like:
+
+    '{"status":"success","user":"hs","role":"admin"}'
+
+It's just a string until you parse it.
+
+
+

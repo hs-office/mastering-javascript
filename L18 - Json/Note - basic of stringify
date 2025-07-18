@@ -1,0 +1,29 @@
+ What JSON.stringify() does:
+ It changes the object into a string format.
+
+ Why JSON.stringify() exists?
+ Problem:
+ You want to send this object to:
+ * API
+ * Database
+ * Save as text in file
+ Those systems cannot accept an object. They only accept a string.
+
+ What JSON.stringify() does:
+ It changes the object into a string format.
+
+ //eg:
+ let a = JSON.stringify(user);
+ console.log(a)
+
+ // output:
+ '{"name":"hs","age":25}'
+
+ Important:
+ * Before stringify: it’s an object, you can use .name
+ * After stringify: it’s a string, you CANNOT use .name
+
+
+
+
+

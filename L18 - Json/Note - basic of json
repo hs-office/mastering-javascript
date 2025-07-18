@@ -1,0 +1,33 @@
+/*
+ What is JSON?
+ JSON = JavaScript Object Notation
+ It’s just data written as a string, used for sending
+ information between systems.
+ Looks like JavaScript: object, but inside quotes (' ').
+ */
+
+// eg: js object
+let user = {
+    name: 'Alice',
+    age: 25
+}
+
+- transform to json using JSON.stringify()
+
+// when transform to json
+'{"name": "Alice", "age": 25}'
+
+Notice:
+ * Everything is in double quotes (" ")
+ * It’s a string, not an object (you can't use
+   .name until you parse it)
+
+ Why JSON.stringify() exists?
+ Problem:
+ You want to send this object to:
+ * API
+ * Database
+ * Save as text in file
+ Those systems cannot accept an object. They only accept a string.
+
+

@@ -1,0 +1,18 @@
+SUMMARY: JSON.parse()
+What does it do?
+It converts a JSON string back into a JavaScript object.
+
+Why use it?
+Because when you receive data from APIs, files, or databases, it is usually in JSON string format.
+You must convert it back to an object to use it in JavaScript.
+
+Before: JSON string (from API, cannot use .name yet)
+let jsonStr = '{"name":"hs","age":25}'
+
+let jsonStr = '{"name":"hakimi","age":25}';
+let user = JSON.parse(jsonStr);
+console.log(user.name); // hs
+console.log(user.age);  // 25
+
+
+

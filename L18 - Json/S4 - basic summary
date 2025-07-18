@@ -1,0 +1,5 @@
+| Action             | Method              | Purpose                           |
+| ------------------ | ------------------- | --------------------------------- |
+| Object → String    | `JSON.stringify()`  | Send to API / Save to file        |
+| String → Object    | `JSON.parse()`      | Read from API / Use in JS         |
+| JSON (What is it?) | Text like JS object | For storing / sending data safely |
